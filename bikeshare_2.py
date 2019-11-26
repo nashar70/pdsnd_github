@@ -1,3 +1,7 @@
+## Created by Ronnie Compton
+## 11/25/2019
+## Created for Udacity Introduction to Python Project
+
 import time
 import pandas as pd
 import numpy as np
@@ -90,7 +94,6 @@ def station_stats(df):
  Start_End_Stations = df.groupby(['Start Station', 'End Station']).size().nlargest(1)
  print('\nMost popular Start to End Station Combination:')
  print(Start_End_Stations)
-
  
  print("\nThis took %s seconds." % (time.time() - start_time))
  print('-'*40)
