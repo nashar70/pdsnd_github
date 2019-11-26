@@ -1,3 +1,9 @@
+## Created by Ronnie Compton
+## 11/25/2019
+
+
+
+
 import time
 import pandas as pd
 import numpy as np
