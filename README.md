@@ -5,7 +5,7 @@
 Udacity Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Create a script to view user data for a bikeshare company in three cities.
 
 ### Files used
 bikeshare_2.py
